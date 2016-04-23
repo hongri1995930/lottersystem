@@ -8,6 +8,9 @@ A Wechat lotter system for international culture festival, used PHP,and MySQL,AP
 #Release Nodes
 ***
 
+##1.1 - 2016-4-23
+* 修复了获奖后无提醒信息的bug，需要建立客服消息发送，使用json封装，不允许直接以xml封装回复
+
 ##1.0 - 2016-4-22
 * 本段代码继承于上届学长，去年部署于Sae服务器上，直接使用了新浪的云应用。可较为方便的搭建此应用，由于本人有AWS所以今年部署于AWS上。
 * 由于新浪云对mysql自带了一个SaeMysql的类，本次自己写了一个SaeMysql的类来连接数据库。附赠网上爬到的SaeMysql源码。
